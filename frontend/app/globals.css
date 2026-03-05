@@ -1,0 +1,41 @@
+:root {
+  --bg: #f4f7f1;
+  --surface: #ffffff;
+  --ink: #132012;
+  --accent: #2f7d32;
+  --muted: #5b6b5a;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "IBM Plex Sans", "Segoe UI", sans-serif;
+  color: var(--ink);
+  background: radial-gradient(circle at top right, #e2f0dc 0%, var(--bg) 45%);
+}
+
+main {
+  max-width: 980px;
+  margin: 0 auto;
+  padding: 32px 18px 72px;
+}
+
+.card {
+  background: var(--surface);
+  border: 1px solid #d5dfd1;
+  border-radius: 14px;
+  padding: 18px;
+  margin: 12px 0;
+}
+
+.badge {
+  display: inline-block;
+  font-size: 12px;
+  padding: 4px 8px;
+  border-radius: 999px;
+  background: #dff1dc;
+  color: #165c18;
+}
